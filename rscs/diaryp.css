@@ -1,0 +1,375 @@
+/* ----------------------------------------- */
+/*                                           */
+/*          DAILY DIARY STYLESHEET           */
+/*                                           */
+/* ----------------------------------------- */
+
+		html, body {
+			margin: 0 0 0 0;
+			padding: 0;
+			background-color: #6D614D;
+			}
+			
+		#wrapper {
+			margin: 0 auto;
+			width: 850px;
+			padding: 0;
+			text-align: left;
+			color: #003333;
+			font-size: 11pt;
+			line-height: 16px;
+			font-family: "Courier", "Courier New", monospace;
+			}
+
+/* ---------------- top page --------------- */
+			
+		.header {
+			background: url(../notimgs/nb/rtop.gif) top center no-repeat;
+			height: 50px; width: 670px;
+			padding: 36px 65px 0 115px;
+			text-align: center;
+			}
+		.main {
+			background: url(../notimgs/nb/rmid.gif) top center repeat-y;
+			padding: 16px 74px 32px 70px;
+			height: auto; width: 706px;
+			min-height: 512px;
+			margin-top: -1px; /*fixes chrome 1px bug*/
+			}
+
+            	.main a:link {
+			font-weight: bolder;
+			text-decoration: none;
+			color:#625744; /*#5d5039;*/
+			}
+		.main a:visited {
+			font-weight: lighter;
+			text-decoration: none;
+			color:#5d5039;
+			}
+		.main a:hover {
+			font-weight: bold;
+			text-decoration: none;
+			color:#754;
+			}
+		.main a:active {
+			text-decoration: none;
+			color:#973;
+			}
+
+
+
+			
+		.footer	{
+			background: url(../notimgs/nb/rbot.gif) bottom center no-repeat;
+			padding: 0 74px 16px 70px;
+			width: 706px;
+			height: 58px;
+			margin-top: -1px; /*fixes chrome 1px bug*/
+			}
+
+/* ------------- ribbon calendar ------------ */
+			
+		#datelink {
+			color: #4EA0AF;
+			font-size: 10pt;
+			text-align: center;
+			line-height: 16px;
+			}
+		#datelink a:link {
+			text-decoration: none;
+			color:#FCF7D2;
+			}
+		#datelink a:visited {
+			text-decoration: none;
+			color:#66CCCC;
+			}
+		#datelink a:hover {
+			font-weight: bold;
+			text-decoration: none;
+			color:#FF9900;
+			}
+		#datelink a:active {
+			text-decoration: none;
+			color:#FF9900;
+			}
+		#datelink .today {
+			font-size: 12px;
+			color:#FFCC33;
+			}
+		#datelink .noentry {
+			font-size: 12px;
+			color:#555;
+			}
+
+/* ------------- diary date ------------ */
+
+		.date {
+			margin: 0 0 0 24px;
+			color: #625744;
+			font-size: 12pt;
+			line-height: 16px;
+			font-weight: bolder;
+			text-shadow: 4px 3px 3px #B6AB92; 
+			}
+		.r {
+			float: right;
+			margin: 0 16px 0 0;
+			}
+			
+		.j {
+			margin: 16px 4px 16px 68px;
+			}
+			
+/* ------------- diary text ------------ */
+			
+		p	{
+			margin: 16px 16px 0 24px;
+			text-indent: 2em;
+			}
+		p.first {
+			text-indent: 0em;
+			}
+		p.first:first-letter {
+			float: left;
+			padding: 5px 5px 3px 2px;
+			color: #625744;
+			font-family: "Times", serif;
+			font-size: 300%;
+			font-weight: 400;
+			line-height: 16px;
+			text-shadow: 8px 6px 3px #7F7158; 
+			}
+		blockquote {
+			color: #5d5039; /*#6f6350;*/
+			margin: 16px 38px 0 64px;
+			}
+		blockquote.more {
+			color: #741;
+			padding-left: 96px;
+			}
+		i	{
+			color: #5B503E;
+			}
+		em	{
+			color: #457;
+			}
+		b	{
+			color: #5d5039;
+			font-weight: bolder;
+			}
+		ul, ol	{
+			color: #5d5039; /*#6f6350;*/
+			margin: 16px 38px 0 64px;
+		   	}
+		li	{
+			margin-top: 16px;
+			}
+
+		li:first-child {
+			margin-top:16px;
+			}
+			
+		table#t01	{
+			border: #d8d0b6;
+			border-collapse: collapse;
+			/*background-color: #f0eee3;*/
+			background-color: #ffe;
+			color: #6f6350;
+			line-height: 11px;
+			}
+		caption	{
+			padding: 16px;
+			font-size: 11pt;
+			font-weight: bolder;
+			line-height: 16px;
+			}
+		   	
+/* --------------- headliners --------------- */
+
+		h1, h2, h3 {
+			color: #6E624D;
+			text-align: center;
+			font-family: "Times", serif;
+			line-height: 27px !important;
+			vertical-align: text-top;
+			}
+		h1 {
+			font-size: 24pt;
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 3px;
+			margin-bottom: 32px;
+			text-shadow: 6px 4px 4px #A49676; 
+			}
+		h2 {
+			font-size: 18pt;
+			text-transform: uppercase;
+			font-weight: 400;
+			letter-spacing: 2px;
+			margin-bottom: 32px;
+			text-shadow: 4px 3px 3px #A49676; 
+			}
+		h3 {
+			font-size: 16pt;
+			font-weight: bolder;
+			margin-bottom: 16px;
+			letter-spacing: 2px;
+			text-shadow: 4px 3px 3px #B6AB92; 
+			}
+
+/* ----------------- footnotes ----------------- */
+
+		.footnote {
+			bottom: -16px;
+			position: relative;
+			color: #973;
+			margin: 16px 16px 32px 48px;
+			font-family: "Times", serif;
+			font-style: italic;
+			line-height: 16px;
+			text-indent: 0em;
+			}
+		sup	{
+			color: #cd2424; /*#625744;*/
+			font-style: normal;
+			font-family: "Times", serif;
+			font-size: 9px;
+			font-weight: bolder;
+			line-height: 16px;
+			vertical-align: text-top;
+			}
+
+/* ------------ supplemental pages -------------- */
+
+		.header2 {
+			background: url(../notimgs/nb/stop.gif) top center no-repeat;
+			height: 50px; width: 670px;
+			padding: 36px 65px 0 115px;
+			text-align: center;
+			}
+		.main2 {
+			background: url(../notimgs/nb/smid.gif) top center repeat-y;
+			padding: 16px 74px 32px 70px;
+			height: auto;
+			width: 706px;
+			min-height: 512px;
+			margin-top: -1px; /*fixes chrome 1px bug*/
+			}
+
+
+            	.main2 a:link {
+			/*font-weight: bolder;*/
+			text-decoration: none;
+			color:#625744; /*#5d5039;*/
+			}
+		.main2 a:visited {
+			font-weight: lighter;
+			text-decoration: none;
+			color:#5d5039;
+			}
+		.main2 a:hover {
+			font-weight: bold;
+			text-decoration: none;
+			color:#754;
+			}
+		.main2 a:active {
+			text-decoration: none;
+			color:#973;
+			}
+
+
+
+
+
+
+
+
+
+
+			
+		.main3 {
+			background: url(../notimgs/nb/calmid.gif) top center repeat-y;
+			padding: 16px 74px 32px 70px;
+			height: auto;
+			width: 706px;
+			margin-top: -1px; /*fixes chrome 1px bug*/
+			min-height: 512px;
+			}
+			
+		.footer2	{
+			background: url(../notimgs/nb/sbot.gif) bottom center no-repeat;
+			padding: 0 74px 16px 70px;
+			width: 706px;
+			height: 58px;
+			margin-top: -1px; /*fixes chrome 1px bug*/
+			}
+
+/* ------------ float imgs w caption ------------- */
+
+		.image {
+			width: auto;
+			text-align: center;
+			}
+		.left {
+			float: left;
+			margin: 6px 6px 8px 32px;
+			}
+		.right {
+			float: right;
+			margin: 6px 24px 8px 6px;
+			}
+		.center {
+			text-align: center;
+			margin: 16px 6px 16px 6px; 
+			}
+		.caption {
+			color: #625744;
+			font-family: "Times", serif;
+			font-style: italic;
+			margin: 0 12px 0 12px;
+			}
+
+/* ------------ questions & answers ----------- */
+
+		.dialogA {
+			font-style: italic;
+			color: #457;
+			margin: 16px 32px 0 6em;
+			text-indent: -2em;
+			}
+		.dialogB {
+			font-style: italic;
+			color: #754;
+			margin: 16px 32px 0 6em;
+			text-indent: -2em;
+			}
+
+/* ------------ multi-page links ------------- */
+
+		.inLink {
+			color: #5d5039; /*#6f6350;#625744;*/
+			margin: 0 16px 16px 24px;
+			text-align: center; 
+			line-height: 16px;
+			text-indent: 0em;
+			}
+		.inLink a:link {
+			text-decoration: none;
+			color:#746751;
+			}
+		.inLink a:visited {
+			text-decoration: none;
+			color:#8F7A55;
+			}
+		.inLink a:hover {
+			font-weight: bold;
+			text-decoration: none;
+			color:#ff0000;
+			}
+		.inLink a:active {
+			text-decoration: none;
+			color:#b40101;
+			}
+
+/* ------------ that's it ------------- */

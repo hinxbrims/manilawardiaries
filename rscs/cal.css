@@ -1,0 +1,178 @@
+/* ----------------------------------------- */
+/*                                           */
+/*           CALENDAR  STYLESHEET            */
+/*                                           */
+/* ----------------------------------------- */
+
+		html, body {
+			margin: 0 0 0 0;
+			padding: 0;
+			background-color: #6D614D;
+			}
+			
+		#wrapper {
+			margin: 0 auto;
+			width: 850px;
+			padding: 0;
+			}
+
+			
+/* ------------ supplemental pages -------------- */
+
+		.calhead {
+			background: url(../notimgs/nb/rtop.gif) top center no-repeat;
+			height: 50px; width: 670px;
+			padding: 36px 65px 0 115px;
+			text-align: center;
+			margin-top: -1px; /*fixes chrome 1px bug*/
+			}
+		.calmain {
+			background: url(../notimgs/nb/rmid.gif) top center repeat-y;
+			padding: 0 74px 0 70px;
+			height: auto; width: 706px;
+			min-height: 512px;
+			}
+		.calfoot {
+			background: url(../notimgs/nb/rbot.gif) bottom center no-repeat;
+			padding: 0 74px 16px 70px;
+			width: 706px;
+			height: 58px;
+			margin-top: -1px; /*fixes chrome 1px bug*/
+			}
+
+		.red, td, B, H1
+			{
+			font-family: "Arial", "Helvetica", sans-serif
+			}
+		table, tr, td {
+			text-align: center;
+			}
+
+		td	{
+			color: #665;
+			font-size: 10pt
+			}
+
+		table.outer
+			{
+			border-collapse: separate;
+			background-image:url(../notimgs/bkg_cal.gif);
+			border-top: 1px solid #F5F0E4;
+			border-left: 1px solid #F5F0E4;
+			border-bottom: 2px solid #9E8B5F;
+			border-right: 2px solid #9E8B5F;
+			}
+			
+		table.cal
+			{
+			border-collapse: separate;
+			border-top: 2px solid #DED3B7;
+			border-left: 2px solid #DED3B7;
+			border-right: 2px solid #9E8B5F;
+			border-bottom: 2px solid #9E8B5F;
+			}
+			
+		table.cal td
+			{
+			border-collapse: separate;
+			border-top: 1px solid #9E8B5F;
+			border-left: 1px solid #9E8B5F;
+			border-bottom: 1px solid #F6ECD4;
+			border-right: 1px solid #F6ECD4;
+			line-height: 16px;
+			}
+		
+		.red {
+			color: #A33;
+			font-size: 10pt
+			}
+		B {
+			font-size: 14pt;
+			line-height: 18px;
+			color: #FFFFCC;
+			font-style: oblique;
+			font-weight: bold;
+			text-shadow: 4px 4px 3px #666040;
+			}
+			
+			
+/*	=============== LINKS ================= */
+
+		a:link {
+			font-weight: normal;
+			text-decoration: none;
+			color:#333; /*#746751*/
+			}
+		a:visited {
+			font-weight: normal;
+			text-decoration: none;
+			color:#865;
+			}
+		a:hover {
+			font-weight: bold;
+			text-decoration: none;
+			color:#cc0000;
+			}
+		a:active {
+			text-decoration: none;
+			color:#b40101;
+			}
+		.red a:link {
+			font-weight: normal;
+			text-decoration: none;
+			color:#990000;
+			}
+		.red a:visited {
+			font-weight: normal;
+			text-decoration: none;
+			color:#c33;
+			}
+		.red a:hover {
+			font-weight: bold;
+			text-decoration: none;
+			color:#FF2222;
+			}
+		.red a:active {
+			text-decoration: none;
+			color:#b40101;
+			}
+
+/* ========== RIBBON CALENDAR ========== */
+			
+		.yearLink {
+			color: #66CCCC;
+			font-style: oblique;
+			font-size: 14pt;
+			text-align: center;
+			line-height: 32px;
+			text-shadow: 2px 4px 3px #224864; 
+			}
+		.yearLink a:link {
+			text-decoration: none;
+			font-weight: normal;
+			color:#66CCCC;
+			}
+		.yearLink a:visited {
+			text-decoration: none;
+			font-weight: normal;
+			color:#66CCCC;
+			}
+		.yearLink a:hover {
+			font-weight: 400;
+			font-weight: normal;
+			color:#FCF7D2;
+			}
+		.yearLink a:active {
+			text-decoration: none;
+			font-weight: normal;
+			color:#E4DEB5;
+			}
+		.thisyear { 
+			color:#FFFFCC;
+			}
+
+
+
+
+
+
