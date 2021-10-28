@@ -108,8 +108,8 @@
 			margin: 0 0 0 24px;
 			color: #625744;
 			font-size: 12pt;
-			line-height: 16px;
 			font-weight: bolder;
+			line-height: 16px;
 			text-shadow: 4px 3px 3px #B6AB92; 
 			}
 		.r {
@@ -124,8 +124,10 @@
 /* ------------- diary text ------------ */
 			
 		p	{
-			margin: 16px 16px 0 24px;
+			margin: 16px 16px 0px 24px;
 			text-indent: 2em;
+			line-height: 16px !important;
+			vertical-align: text-top;
 			}
 		p.first {
 			text-indent: 0em;
@@ -178,8 +180,15 @@
 			color: #6f6350;
 			line-height: 11px;
 			}
+		table#t02	{
+			width: 700px;
+			font-size: 9pt;
+			line-height:16px;
+			color: #5d5039;
+			}
+		
 		caption	{
-			padding: 16px;
+			padding: 0px;
 			font-size: 11pt;
 			font-weight: bolder;
 			line-height: 16px;
@@ -237,7 +246,7 @@
 			font-size: 9px;
 			font-weight: bolder;
 			line-height: 16px;
-			vertical-align: text-top;
+			vertical-align: top;
 			}
 
 /* ------------ supplemental pages -------------- */
@@ -278,16 +287,6 @@
 			color:#973;
 			}
 
-
-
-
-
-
-
-
-
-
-			
 		.main3 {
 			background: url(../notimgs/nb/calmid.gif) top center repeat-y;
 			padding: 16px 74px 32px 70px;
@@ -327,7 +326,7 @@
 			color: #625744;
 			font-family: "Times", serif;
 			font-style: italic;
-			margin: 0 12px 0 12px;
+			margin: 0px 12px -1px 12px;
 			}
 
 /* ------------ questions & answers ----------- */
